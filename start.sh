@@ -2,7 +2,7 @@
 #setting up environment
 pkg update -y
 pkg upgrade -y 
-pkg install qemu-system-x86_64 x11-repo wget -y
+pkg install x11-repo qemu-system-x86_64  wget -y
 
 #download iso file + store it in download section
 ISO_URL="shorturl.at/gpRY5"
