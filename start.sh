@@ -5,7 +5,7 @@ pkg upgrade -y
 pkg install x11-repo qemu-system-x86_64  wget -y
 
 #download iso file + store it in download section
-ISO_URL="shorturl.at/gpRY5"
+ISO_URL="https://shorturl.at/eBD67"
 ISO_FILE="/storage/emulated/0/Download"
 wget -P /storage/emulated/0/Download -O ISO_FILE.iso "$ISO_URL"
 
